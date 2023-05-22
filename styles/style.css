@@ -1,0 +1,132 @@
+body {
+    background: url(../images/BG.png);
+    background-size: cover;
+}
+
+.header__top {
+    display: flex;
+    flex-direction: row;
+    padding: 58px 80px 0 80px;
+    align-items: center;
+}
+
+.header__logo img {
+    width: 108px;
+    height: 24px;
+}
+
+.header__nav {
+    margin: 0 auto;
+}
+
+.header__nav ul{
+    list-style: none;
+}
+
+.header__nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.header__nav_a {
+    font-size: 18px;
+    line-height: 21.76px;
+    color: #FFFFFF;
+    font-style: bold;
+    text-decoration: none;
+}
+
+.header__account {
+    /* display: flex;
+    flex-direction: row; */
+    width: 98px;
+    /* align-items: center; */
+}
+
+.header__account_link img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.header__account_link {
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    font-style: bold; 
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* MAIN START */
+
+/* SECTION TAGLINE START */
+.section__tagline {
+    padding: 198px 0 542px 0;
+}
+
+.tagline__block{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.tagline__block_topline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.tagline__block_topline img {
+    width: 72px;
+    height: 2px;
+}
+
+.tagline__block_topline p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+    margin-left: 32px;
+}
+
+h1 {
+    font-family: 'Chronicle Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 100px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 32px 0;
+}
+
+.tagline__block__bottomrrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;        
+}
+
+.tagline__block__bottomrrow p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.tagline__block__bottomrrow img {
+    width: 16px;
+    height: 24px;
+    margin-left: 16px;
+}
+
+/* SECTION TAGLINE START */
+
+/* MAIN END */
